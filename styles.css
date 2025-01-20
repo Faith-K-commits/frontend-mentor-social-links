@@ -1,0 +1,73 @@
+/* root */
+:root {
+  --clr-primary-green: #c5f82a;
+  --clr-neutral-white: #ffffff;
+  --clr-neutral-grey: #333333;
+  --clr-neutral-dark-grey: #1f1f1f;
+  --clr-neutral-off-black: #141414;
+
+  --ff: "Inter", sans-serif;
+  --fs-body: 0.875rem;
+  --fs-heading: 1.375rem;
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-inline: auto;
+  color: var(--clr-primary-green);
+  font-style: italic;
+}
+
+a {
+  color: var(--clr-neutral-white);
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--ff);
+  font-weight: var(--fw-400);
+  font-size: var(--fs-body);
+  color: var(--clr-neutral-white);
+  background: var(--clr-neutral-off-black);
+  text-align: center;
+}
+
+.username {
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-600);
+}
+
+.location {
+  color: var(--clr-primary-green);
+  font-weight: var(--fw-600);
+}
+
+.list-item {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  background: var(--clr-neutral-grey);
+}
